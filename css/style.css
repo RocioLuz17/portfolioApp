@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Monserrat', sans-serif;
   background: url("../img/tech2img.JPG") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
 
-/* Contenedores */
 header, section, footer {
   background: rgba(0, 0, 0, 0.7);
   margin: 20px;
@@ -15,7 +14,6 @@ header, section, footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
 
-/* Botones */
 .btn {
   background: #7f4caf;
   border: none;
@@ -30,7 +28,6 @@ header, section, footer {
   background: #a53a93;
 }
 
-/* Animación de aparición */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -41,7 +38,6 @@ header, section, footer {
   transform: translateY(0);
 }
 
-/* Tema claro */
 .light-mode {
   background: #f5f5f5 url("../img/techeimg.JPG") no-repeat center center fixed;
   background-size: cover;
